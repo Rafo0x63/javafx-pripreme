@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.production.controller.CategorySearchController">
+
+    <fx:include source="menu-bar.fxml" />
+   <Label layoutX="339.0" layoutY="37.0" text="Category search">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="344.0" layoutY="83.0" text="Enter category name:" />
+   <TextField fx:id="nameTextField" layoutX="485.0" layoutY="79.0" prefHeight="25.0" prefWidth="245.0" />
+   <Button fx:id="searchButton" layoutX="381.0" layoutY="151.0" mnemonicParsing="false" onAction="#search" text="Search" />
+   <TableView fx:id="tableView" layoutY="185.0" prefHeight="415.0" prefWidth="800.0">
+     <columns>
+       <TableColumn fx:id="nameTableColumn" prefWidth="191.0" text="Name" />
+       <TableColumn fx:id="descriptionTableColumn" prefWidth="608.0" text="Description" />
+     </columns>
+   </TableView>
+</AnchorPane>

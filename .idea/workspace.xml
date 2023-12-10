@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25e48653-c524-4555-a911-3cccb406629a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dat/adresses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dat/categories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dat/factories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dat/items.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dat/stores.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/ProductionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/controller/AddCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/controller/AddFactoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/controller/AddItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/controller/AddStoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/controller/CategorySearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/controller/FactorySearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/controller/ItemSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/controller/MainViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/controller/MenuBarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/controller/StoreSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/enums/Cities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/exception/ConflictingArticlesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/exception/ConflictingCategoryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Beef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/NamedEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Poultry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/model/Technical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/sort/ProductionSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/utils/ImportCategories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/utils/ImportFactories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/utils/ImportItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hr/java/production/utils/ImportStores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/java/production/add-category-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/java/production/add-factory-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/java/production/add-item-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/java/production/add-store-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/java/production/category-search-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/java/production/factory-search-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/java/production/item-search-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/java/production/main-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/java/production/menu-bar.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hr/java/production/store-search-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2Z7gs7lXniZcNxTMKbqi51qD2SC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/anton/OneDrive/Desktop/Java pripreme/Rafajec-8/src/main/resources/hr/java/production",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\OneDrive\Desktop\Java pripreme\Rafajec-8\src\main\resources\hr\java\production" />
+      <recent name="C:\Users\anton\OneDrive\Desktop\Java pripreme\Rafajec-7\src\main\resources\hr\java\production" />
+      <recent name="C:\Users\anton\OneDrive\Desktop\Rafajec-7\src\main\java\hr\java\production" />
+      <recent name="C:\Users\anton\OneDrive\Desktop\Rafajec-7" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hr.java.production" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25e48653-c524-4555-a911-3cccb406629a" name="Changes" comment="" />
+      <created>1701778303449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701778303449</updated>
+      <workItem from="1701778304585" duration="334000" />
+      <workItem from="1701778739475" duration="2519000" />
+      <workItem from="1702118641500" duration="14537000" />
+      <workItem from="1702156129753" duration="1623000" />
+      <workItem from="1702234009597" duration="8179000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
